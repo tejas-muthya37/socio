@@ -10,21 +10,23 @@ const Navbar = () => {
     <div className="Navbar">
       <ul className="navbar-items">
         <li>
-          <HomeOutlinedIcon fontSize="large" /> Home
+          <HomeOutlinedIcon /> Home
         </li>
         <li>
-          <ExploreOutlinedIcon fontSize="large" /> Explore
+          <ExploreOutlinedIcon />
+          Explore
         </li>
         <li>
-          <BookmarkBorderOutlinedIcon fontSize="large" /> Bookmarks
+          <BookmarkBorderOutlinedIcon /> Bookmarks
         </li>
         <li>
-          <NotificationsNoneOutlinedIcon fontSize="large" /> Notifications
+          <NotificationsNoneOutlinedIcon /> Notifications
         </li>
         <li>
-          <AccountCircleOutlinedIcon fontSize="large" /> Profile
+          <AccountCircleOutlinedIcon /> Profile
         </li>
       </ul>
+      <button>Create New Post</button>
     </div>
   );
 };

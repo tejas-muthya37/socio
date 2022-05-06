@@ -13,3 +13,12 @@
   font-family: var(--primary-font);
   background-color: var(--primary-bg);
 }
+
+button {
+  background-color: var(--primary-color);
+  color: var(--primary-bg);
+  border: none;
+  height: 2.5rem;
+  width: 100%;
+  font-size: 1.15rem;
+}
