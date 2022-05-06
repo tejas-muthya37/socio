@@ -1,0 +1,11 @@
+.Navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Navbar ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

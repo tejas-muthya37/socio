@@ -6,8 +6,8 @@ import Navbar from "./../../Components/Navbar/Navbar";
 const Homepage = () => {
   return (
     <div className="Homepage">
-      <Feed />
-      <Recommendation />
+      {/* <Feed />
+      <Recommendation /> */}
       <Navbar />
     </div>
   );
