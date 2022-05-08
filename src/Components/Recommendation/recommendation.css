@@ -1,0 +1,39 @@
+.recommendation-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.recommendation-section .user-card {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 1rem;
+}
+
+.recommendation-section .author-display-picture {
+    height: 2.25rem;
+    width: 2.25rem;
+    background-color: silver;
+    border-radius: 100%;
+    margin: 0.25rem 0;
+}
+
+.recommendation-section .author-credentials {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendation-section .author-credentials span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.15rem;
+    color: black;
+}
+
+
+.recommendation-section span {
+    font-weight: bold;
+    margin: auto 0 auto auto;
+    color: var(--primary-color);
+}

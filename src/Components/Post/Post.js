@@ -1,7 +1,4 @@
 import "./post.css";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
-import BookmarkBorderOutlinedIcon from "@mui/icons-material/BookmarkBorderOutlined";
 import { BsHeart } from "react-icons/bs";
 import { VscComment } from "react-icons/vsc";
 import { BsBookmark } from "react-icons/bs";
