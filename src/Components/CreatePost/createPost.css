@@ -1,0 +1,42 @@
+.create-post-section {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.create-post-section .author-display-picture {
+    height: 2rem;
+    width: 2rem;
+    background-color: silver;
+    border-radius: 100%;
+    margin: 0.25rem auto;
+}
+
+.create-post-section .create-post-body {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 90%;
+    gap: 1rem;
+}
+
+.create-post-section .create-post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-post-section textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    height: 6rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+}
+
+.create-post-section .create-post-footer button {
+    width: 6rem;
+}

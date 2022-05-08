@@ -1,5 +1,6 @@
 .Homepage {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 0.7fr 1.6fr 0.7fr;
+    gap: 2rem;
     padding: 2rem;
 }
